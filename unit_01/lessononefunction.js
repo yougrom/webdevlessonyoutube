@@ -88,3 +88,30 @@ function blockwidth() {
     w++;
     document.querySelector('.unit-1').style.width = w + 'px';
 } 
+
+
+
+
+
+
+
+
+
+// Home Task
+// Task 1
+function getRandomInt() {
+    const min = 117;
+    const max = 132;
+    let rand = Math.floor(min + Math.random() * (max + 1 - min));
+    console.log(rand);
+}
+getRandomInt();
+
+// Task 2
+let min = 1000;
+let max = 2000;
+function getRandomInt2() {
+    let rand = Math.floor(min + Math.random() * (max + 1 - min));
+    console.log(rand);
+}
+getRandomInt2();
