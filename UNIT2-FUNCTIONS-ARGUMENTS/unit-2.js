@@ -42,14 +42,15 @@ function showSumAll() {
     console.log(sum);
 }
 showSumAll(4, 5, 60);
+ 
 
 // Practice 4 + Rest Parametrs
-function showSumAll2(...args) {
+function showSumAll2(...args) { //...args работа с не ограниченным кол-вом арг
     console.log(args);
     let sum = args.reduce( (accum, item) => accum+= item);
     console.log(sum);
 }
-showSumAll2(4, 5, 160, 230, 450);
+showSumAll2(40, 50, 160, 230, 450);
 
 // Practice 5 Можно ли передать функцию в качестве аргумента
  // Функция как Аргумент
