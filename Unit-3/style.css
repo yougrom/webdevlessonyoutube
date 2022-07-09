@@ -5,3 +5,13 @@ div.section {
     border-bottom: 1px dashed black;
 
 }
+div.section-2 {
+    margin: 20px 0;
+    padding: 20px 0px;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+
+}
+b {
+    line-height: 3;
+}
