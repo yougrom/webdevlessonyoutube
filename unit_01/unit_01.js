@@ -4,6 +4,8 @@
 
 const out1 = document.querySelector('.out-1');
 
+const out2 = document.getElementById('#')
+
 // функцию пишите здесь
 function getRandomInt() {
     const min = 117;
@@ -12,7 +14,7 @@ function getRandomInt() {
     console.log(rand);
 
 }
-    getRandomInt();
+getRandomInt();
 
 
 // Task 2.
