@@ -36,7 +36,8 @@ function squad(item) {
     return item**2;
 }
 
-//const arr2 = arr1.map(squad);
+//
+const arr2 = arr1.map(squad);
 const arr2 = arr1.map(item => item ** 2);
 console.log(arr2);
 showArr(arr2, out3);
